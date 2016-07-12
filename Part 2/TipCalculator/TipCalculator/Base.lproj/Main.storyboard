@@ -74,6 +74,12 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="GKT-85-zLB"/>
+                    <connections>
+                        <outlet property="resultsTextView" destination="8Ar-rw-MHB" id="ILG-n5-Sto"/>
+                        <outlet property="taxPctLabel" destination="ntm-uM-9Qe" id="klQ-eN-cgA"/>
+                        <outlet property="taxPctSlider" destination="tJb-L4-01c" id="Jh1-YT-AZB"/>
+                        <outlet property="totalTextField" destination="w4L-xS-0Wl" id="yp3-Wx-YqW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="IY3-xb-UYX"/>
