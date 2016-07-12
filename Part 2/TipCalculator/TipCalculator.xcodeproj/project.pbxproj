@@ -12,6 +12,7 @@
 		2825DCD91D34F28C0053EE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2825DCD71D34F28C0053EE8C /* Main.storyboard */; };
 		2825DCDB1D34F28C0053EE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2825DCDA1D34F28C0053EE8C /* Assets.xcassets */; };
 		2825DCDE1D34F28C0053EE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2825DCDC1D34F28C0053EE8C /* LaunchScreen.storyboard */; };
+		2825DCE61D34F3FB0053EE8C /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825DCE51D34F3FB0053EE8C /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2825DCDA1D34F28C0053EE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2825DCDD1D34F28C0053EE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2825DCDF1D34F28C0053EE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2825DCE51D34F3FB0053EE8C /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2825DCD31D34F28C0053EE8C /* AppDelegate.swift */,
 				2825DCD51D34F28C0053EE8C /* ViewController.swift */,
+				2825DCE51D34F3FB0053EE8C /* TipCalculatorModel.swift */,
 				2825DCD71D34F28C0053EE8C /* Main.storyboard */,
 				2825DCDA1D34F28C0053EE8C /* Assets.xcassets */,
 				2825DCDC1D34F28C0053EE8C /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2825DCE61D34F3FB0053EE8C /* TipCalculatorModel.swift in Sources */,
 				2825DCD61D34F28C0053EE8C /* ViewController.swift in Sources */,
 				2825DCD41D34F28C0053EE8C /* AppDelegate.swift in Sources */,
 			);
