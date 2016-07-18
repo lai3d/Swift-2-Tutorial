@@ -38,3 +38,24 @@ class TipCalculatorModel {
     }
     
 }
+
+// Table Views, Delegates, and Data Sources
+
+// 1
+import UIKit
+// 2
+class TestDataSource : NSObject {
+    
+    // 3
+    let tipCalc = TipCalculatorModel(total: 33.25, taxPct: 0.06)
+    var possibleTips = Dictionary<Int, (tipAmt:Double, total:Double)>()
+    var sortedKeys:[Int] = []
+    
+    // 4
+    override init() {
+        possibleTips = tipCalc.returnPossibleTips()
+        sortedKeys = Array(possibleTips.keys).sort()
+        super.init()
+    }
+    
+}

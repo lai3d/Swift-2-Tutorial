@@ -93,5 +93,3 @@ sim.delegate = LoggingDateSimulator()
 sim.simulate()
 
 
-
-
