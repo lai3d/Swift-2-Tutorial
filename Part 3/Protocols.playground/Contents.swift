@@ -36,3 +36,15 @@ class Dog : Animal, Speaker {
         print("Woof!")
     }
 }
+
+var speaker:Speaker
+speaker = Ray()
+speaker.Speak()
+// speaker.WriteTutorial() // error!
+(speaker as! Ray).WriteTutorial()
+speaker = Vicki()
+speaker.Speak()
+
+speaker.TellJoke?()
+speaker = Dog()
+speaker.TellJoke?()
